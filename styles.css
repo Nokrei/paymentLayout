@@ -1,0 +1,222 @@
+body{
+    background: linear-gradient(#EDC1D3,#91BDEC);
+    min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    padding: 51px 44px 66px 55px
+}
+.container-fluid{
+    background: #ffff;
+    margin-top:136px;
+    border-radius: 30px;
+    filter:drop-shadow( 0 4px 40px #8CA4D8);
+    max-width:1374px;  
+}
+.content{
+    padding-left:78px
+}
+.card-front{
+    background: rgb(219,3,94);
+background: linear-gradient(328deg, rgba(219,3,94,1) 0%, rgba(148,187,233,1) 100%);
+}
+.card-back{
+    border: 1px solid #D8D8D8;
+    background: #FFFFFF
+}
+.card-front, 
+.card-back{
+    width: 364px;
+    height: 239px;
+    border-radius: 20px;
+    padding:25px 32px
+}
+
+.card-front div
+{
+    display: flex;
+    justify-content: space-between;  
+}
+.card-back div{
+    display: flex;
+    justify-content: space-between;
+}
+.payment{
+    display:grid;
+    justify-items: center;
+}
+.payment-flex{
+    display:flex
+}
+.fa-search{
+    color: #5B63A9
+}
+.fa-bell-o{
+    color:#C2CFE0;
+    padding-right: 36px;
+    font-size:19px
+}
+input{
+    border:none;
+    border-color: transparent;
+    width:199px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:12px
+}
+.navbar img{
+    width:32px;
+}
+.navbar span{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+line-height: 100%;
+color:#1D262C;
+padding-bottom:34px
+}
+.exclude{
+    width:25px;
+    height:29px
+}
+.number-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+line-height: 13px;
+line-height: 100%;
+margin:0 0 2px 0
+}
+
+.number{
+font-family: 'Roboto Mono', monospace;
+font-weight: Bold;
+font-size: 18px;
+line-height: 24px;
+line-height: 100%;
+}
+.chip{
+    width:37px;
+    height:26px
+}
+.card-top{
+    padding-bottom:41px
+}
+.card-mid,
+.card-mid-back
+{
+    display:flex;
+    align-items: center;
+    padding-bottom:44px;
+}
+.card-mid p{
+    background:  linear-gradient(
+        #FFFFFF,rgba(255, 255, 255, 0.1)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity:0.8
+}
+.card-mid-back p{
+    color:#41477A
+}
+.card-mid-back p:first-of-type{
+    opacity:0.7
+}
+hr{
+    background-color:#D8D8D8;
+    margin:  0 -32px
+}
+.card-bottom{
+    padding-top:15px;
+    color :#FFFFFF
+}
+.card-bottom-back span:first-of-type{
+    color:#41477A
+}
+.card-bottom-back p{
+    color: #979797
+}
+.card-bottom-back p:first-of-type{
+    opacity: 0.7
+}
+.card-name{
+font-family: 'Roboto Mono', monospace;
+font-weight:700;
+font-size:14px;
+line-height:18px;
+}
+.card-bottom__text{
+font-family: 'Roboto Mono', monospace;
+font-size: 6px;
+line-height: 8px;
+line-height: 100%;
+margin:0;
+}
+.card-bottom__nr{
+    font-family: 'Roboto Mono', monospace;
+font-weight: Bold;
+font-size: 14px;
+line-height: 18px;
+line-height: 100%;
+}
+.history{
+    padding-top:50px
+}
+.history p {
+    font-family: 'Poppins', sans-serif;
+Font-size: 18px;
+line-height: 27px;
+Line-height: 100%;
+}
+.history ul{
+    padding-left:0
+}
+.payment-info{
+    font-family: 'Poppins', sans-serif; 
+    Font-size: 14px;
+    line-height: 21px;
+    line-height: 100%;
+}
+.payment-colored{
+    font-family: 'Poppins', sans-serif; 
+    Font-size: 12px;
+    line-height: 18px;
+    line-height: 100%;
+    letter-spacing: -0.07px;
+    text-transform: uppercase;
+}
+.orange{
+    color: #F2994A
+}
+.blue{
+    color: #3A91C1
+}
+.darkBlue{
+    color: #5A4C79
+}
+.payment-date{
+    color: #5C626D;
+    font-family: 'Poppins', sans-serif; 
+    Font-size: 12px;
+    line-height: 18px;
+    line-height: 100%;
+}
+.payment-amount{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    Font-size: 12px;
+    line-height: 15px;
+    line-height: 100%;
+}
+.red{
+    color:#EB5757
+}
+.green{
+    color:#219653
+}
